@@ -36,3 +36,39 @@ apt install sudoku <br>
 Soit les deux paquets installés avec apt install depuis l'installation de la VM.
 
 ## Exercice 2
+_dpkg -S $(which ls)_ <br>
+ls est contenu dans le paquet coreutils : /bin/ls <br>
+
+Le script bash est le suivant : <br>
+#!/bin/bash <br>
+dpkg -S(which $1)<br>
+
+De cette façon, l'utilisateur passe une commande en paramètre et le paquet qui l'a installé est retourné.
+
+## Exercice 3
+'#!/bin/bash'<br>
+
+
+
+## Exercice 4
+_dpkg -L coreutils | more_ <br>
+La commande "[]" réalise un test, elle exécute l'instruction donnée dans les crochets et retourne le résultat ou une erreur.
+
+## Exercice 5
+
+
+
+
+## Exercice 6
+
+
+
+
+## Exercice 7
+
+
+
+
+## Exercice 8
+
+
