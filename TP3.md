@@ -70,11 +70,15 @@ Nous retourne : _linuxuprising-ubuntu-java-eoan.list_ <br>
 Le fichier a donc bien été crée, il contient les dépots demandés à l'installation tel que _`deb http://ppa.launchpad.net/linuxuprising/java/ubuntu eoan main`_
 
 ## Exercice 7
+__Création d'un paquet Debian avec dpkg-deb__ <br>
 On déplace origine commande à user/local/bin avec la commande `mv origine-commande user/local/bin`<br>
 On crée ensuite un fichier control avec les informations demandées. Pour écrire dedans, nous demandons l'écriture jusqu'a ce qu'on redonne la clé "FIN"<br>
 `cat <<FIN>> control`<br>
 On construit ensuite le paquet avec la commande indiquée.<br>
-//Ne fonctionne pas
+
+__Création du dépot personnel avec reprepo__ <br>
+
+__Signtaure du dépot avec CPG__<br>
 
 
 
