@@ -78,7 +78,7 @@ On construit ensuite le paquet avec la commande indiquée.<br>
 
 __Création du dépot personnel avec reprepo__ <br>
 
-__Signtaure du dépot avec CPG__<br>
+__Signature du dépot avec CPG__<br>
 
 
 
