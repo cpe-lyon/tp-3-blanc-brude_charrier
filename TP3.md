@@ -76,8 +76,12 @@ On crée ensuite un fichier control avec les informations demandées. Pour écri
 `cat <<FIN>> control`<br>
 On construit ensuite le paquet avec la commande indiquée.<br>
 
-__Création du dépot personnel avec reprepo__ <br>
+__Création du dépot personnel avec reprepro__ <br>
+De même que precedemment, nous créons le fichier distributions dans repo-cpe/conf avec la commande `cat <<FIN>> distributions`.<br>
+Il faut également installer le paquet reprepro `sudo apt install reprepro`.<br>
 
+`reprepro -b . includedeb cosmic origine-commande.deb`<br>
+// Ne fonctionne pas.<br>
 __Signature du dépot avec CPG__<br>
 
 
