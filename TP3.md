@@ -11,7 +11,7 @@ Cette commande permet d'afficher les 5 dernières lignes du fichier dpkg.log con
 ### 2. Utiliser dpkg et apt pour compter le nombre de paquets installés (ne pas hésiter à consulter le manuel!). Comment explique-t-on la (petite) différence de comptage ?
 En utilisant la commande `dpkg -l |wc -l` , on compte le nombre de lignes contenue dans le fichier dpkg.log. On en récupère 553.<br>
 La commande `apt list |grep installé |wc -l` nous retourne 548 lignes comptées.<br>
-On explique cette différence ///////////////////////////////
+On explique cette différence car les packets qui permettent de gérer apt sont compris dans la liste des dpkg.
 <br>
 ### 3. Combien de paquets sont disponibles en téléchargement ?
 `apt list |wc -l` <br>
