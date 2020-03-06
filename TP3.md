@@ -79,13 +79,18 @@ On construit ensuite le paquet avec la commande indiquée.<br>
 __Création du dépot personnel avec reprepro__ <br>
 De même que precedemment, nous créons le fichier distributions dans repo-cpe/conf avec la commande `cat <<FIN>> distributions`.<br>
 Il faut également installer le paquet reprepro `sudo apt install reprepro`.<br>
-
-`reprepro -b . includedeb cosmic origine-commande.deb`<br>
-// Ne fonctionne pas.<br>
+`reprepro -b . includedeb cosmic packages/origine-commande.deb`<br>
 __Signature du dépot avec CPG__<br>
-
-
+Dans cet exercice, nous suivons les lignes de commande afin de signer notre dépot à l'aide d'une paire de clefs (publique et privée).<br>
+Nous créons notre paire de clefs, l'indiquons à la configuration du dépôt, l'attribuons à notre dépôt puis spécifions à apt qu'elle est fiable.<br>
+Nous vérifions comme d'habitude avec `sudo apt install ...` que le paquet peut s'installer correctement.
 
 ## Exercice 8
-
-
+Avec la commande proposée, on commence par récupérer en local le code source de nudoku.<br>
+On effectue successivement les commandes suivantes : <br>
+`sudo apt install autoconf`<br>
+`sudo apt install gettext`<br>
+`sudo apt install autopoint`<br>
+`sudo apt list --upgradable`<br>
+Après avoir executé `configure`, on execute `sudo chekinstall`, puis on vérifie bien que notre paquet .deb a été crée.<br>
+On a ainsi récupéré le code source d'un logiciel en local et créé son script configure à partir du fichier configure.ac. Après avoir executé ce script, le fichier Makefile a été crée, qui contient les directives de compilation. Enfin avec `checkinstall`, le paquet .deb est crée et le logiciel est installé sur la machine.
