@@ -25,7 +25,7 @@ Le paquet fortunes permet d'afficher des citations, proverbes, adages ... à cha
 `sudo apt install fortunes`
 <br>
 ### 6. Quels paquets proposent de jouer au sudoku ?
-Le paquet sudoku (oui oui)<br>
+Le paquet sudoku.<br>
 `sudo apt install sudoku`
 <br>
 ### 7. Lister les derniers paquets installés explicitement avec la commande apt install.
@@ -83,7 +83,7 @@ Il faut également installer le paquet reprepro `sudo apt install reprepro`.<br>
 __Signature du dépot avec CPG__<br>
 Dans cet exercice, nous suivons les lignes de commande afin de signer notre dépot à l'aide d'une paire de clefs (publique et privée).<br>
 Nous créons notre paire de clefs, l'indiquons à la configuration du dépôt, l'attribuons à notre dépôt puis spécifions à apt qu'elle est fiable.<br>
-Nous vérifions comme d'habitude avec `sudo apt install ...` que le paquet peut s'installer correctement.
+Nous vérifions comme d'habitude avec `sudo apt install origine-commande.deb` que le paquet peut s'installer correctement.
 
 ## Exercice 8
 Avec la commande proposée, on commence par récupérer en local le code source de nudoku.<br>
