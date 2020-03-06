@@ -92,5 +92,5 @@ On effectue successivement les commandes suivantes : <br>
 `sudo apt install gettext`<br>
 `sudo apt install autopoint`<br>
 `sudo apt list --upgradable`<br>
-Après avoir executé `configure`, on execute `sudo chekinstall`, puis on vérifie bien que notre paquet .deb a été crée.<br>
-On a ainsi récupéré le code source d'un logiciel en local et créé son script configure à partir du fichier configure.ac. Après avoir executé ce script, le fichier Makefile a été crée, qui contient les directives de compilation. Enfin avec `checkinstall`, le paquet .deb est crée et le logiciel est installé sur la machine.
+Après avoir executé `configure`, on execute `sudo chekinstall`, puis on vérifie bien que notre paquet .deb a été créé.<br>
+On a ainsi récupéré le code source d'un logiciel en local et créé son script configure à partir du fichier configure.ac. Après avoir executé ce script, le fichier Makefile a été créé, qui contient les directives de compilation. Enfin avec `checkinstall`, le paquet .deb est créé et le logiciel est installé sur la machine.
